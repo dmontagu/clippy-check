@@ -13,6 +13,7 @@ export interface Input {
     args: string[],
     useCross: boolean,
     name: string,
+    manifestPath?: string,
 }
 
 export function get(): Input {
